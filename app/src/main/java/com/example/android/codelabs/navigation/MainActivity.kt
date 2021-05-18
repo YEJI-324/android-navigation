@@ -57,6 +57,8 @@ class MainActivity : AppCompatActivity() {
                 drawerLayout
         )
 
+        toolbar.setupWithNavController(navController, appBarConfiguration)
+
         setupActionBar(navController, appBarConfiguration)
 
         setupNavigationMenu(navController)
